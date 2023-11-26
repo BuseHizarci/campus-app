@@ -1,8 +1,19 @@
 import React from 'react'
+import Welcome from '../components/about/welcome'
+import PageHeader from '../components/common/page-header'
+import Spacer from '../components/common/spacer'
+import Instructors from '../components/about/instructors'
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <>
+      <PageHeader title="About Us"/>
+      <Spacer/>
+      <Welcome/>
+      <Spacer/>
+      <Instructors/>
+      <Spacer/>
+    </>
   )
 }
 
