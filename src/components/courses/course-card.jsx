@@ -1,16 +1,16 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import {FiUser, FiTrendingUp, FiMessageCircle} from "react-icons/fi"
+import { FiUser, FiTrendingUp, FiMessageCircle } from "react-icons/fi";
 import "./course-card.scss";
 
-const CourseCard = ({image, title, user, rating, comment}) => {
+const CourseCard = ({ image, title, user, rating, comment }) => {
   return (
     <Card className="course-card">
       <Card.Body>
         <div className="image">
-            <Card.Img src={`/images/courses/${image}`} />
+          <Card.Img src={`/images/courses/${image}`} />
         </div>
-        
+
         <Card.Title>{title}</Card.Title>
         <Card.Subtitle>
           <div>

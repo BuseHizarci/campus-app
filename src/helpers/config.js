@@ -1,17 +1,17 @@
 export const config = {
   project: {
     name: "Future Skills",
-    slogan:
-      "Empowering Minds, Building Futures: Your Gateway to IT Excellence!",
+    slogan: "Future Skills: Ignite Your Journey to IT Excellence!",
+
     description:
-      "Unlock your potential with our IT school – where innovation meets education. Discover cutting-edge courses, expert instructors, and a dynamic learning environment. Join us on a journey to IT excellence!",
+      "Unleash your potential with our unparalleled IT school – a fusion of innovation and education. Immerse yourself in cutting-edge courses, guided by expert instructors, within a dynamic learning environment. Embark on a transformative journey to IT excellence!",
     version: "1.0.0",
   },
   contact: {
-    phone1: "+1 (212) 489-1895",
-    phone2: "+1 (212) 489-1899",
-    email: "info@FutureSkills.com",
-    address: "16 Chester St, New York, NY 10012, USA",
+    phone1: "+44 (234) 489-1895",
+    phone2: "+44 (234) 489-1890",
+    email: "info@futureskills.com",
+    address: "16 Chester St, London, UK",
     website: "https://futureskills.com",
     mapURL: "https://maps.app.goo.gl/dA4yeBbXNFQAxWNf7",
     mapEmbedURL:

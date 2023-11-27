@@ -11,8 +11,12 @@ const Contact = () => {
         <Card>
           <Card.Body>
             <Row className="g-5">
-              <Col md={7}><ContactForm/></Col>
-              <Col md={5}><GetInTouch/></Col>
+              <Col md={7}>
+                <ContactForm />
+              </Col>
+              <Col md={5}>
+                <GetInTouch />
+              </Col>
             </Row>
           </Card.Body>
         </Card>
