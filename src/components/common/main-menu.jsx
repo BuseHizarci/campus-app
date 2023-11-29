@@ -9,11 +9,6 @@ import {
   AiOutlineInfoCircle,
 } from "react-icons/ai";
 
-const array = [1, 2, 3, 4, 5];
-const newarray = [7, 8, 9, 10];
-
-const mergeArray = [array, newarray]; // [ [1, 2, 3, 4, 5], [7, 8, 9, 10] ];
-const merge2Array = [...array, ...newarray]; // [1, 2, 3, 4, 5, 7, 8, 9, 10]
 
 const MainMenu = (props) => {
   return (
@@ -32,9 +27,6 @@ const MainMenu = (props) => {
       </Nav.Link>
       <Nav.Link as={Link} to="/contact">
         <AiOutlineAliwangwang /> Contact
-      </Nav.Link>
-      <Nav.Link as={Link} to="/payment">
-        Payment
       </Nav.Link>
     </Nav>
   );

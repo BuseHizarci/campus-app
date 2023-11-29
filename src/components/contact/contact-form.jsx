@@ -16,7 +16,7 @@ const ContactForm = () => {
     email: "",
     subject: "",
     message: "",
-  }
+  };
 
   const validationSchema = Yup.object({
     name: Yup.string().required("Required"),
@@ -29,14 +29,17 @@ const ContactForm = () => {
     setLoading(true);
 
     try {
-      await createMessage(values);
-      formik.resetForm();
-      swalAlert("Your message has been sent", "success");
+        await createMessage(values);
+        formik.resetForm();
+        swalAlert("Your message has been sent","success")
+        
     } catch (err) {
-      console.log(err);
-    } finally {
-      setLoading(false);
+        console.log(err);
     }
+    finally{
+        setLoading(false);
+    }
+
   };
 
   const formik = useFormik({

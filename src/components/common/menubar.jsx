@@ -23,7 +23,9 @@ const Menubar = () => {
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <MainMenu className="justify-content-center flex-grow-1 pe-3" />
+           
+            <MainMenu className="justify-content-center flex-grow-1 pe-3"/>
+
             <a
               href={`tel:${config.contact.phone1}`}
               className="btn btn-outline-secondary"
