@@ -1,0 +1,25 @@
+.slider img {
+  height: calc(100vh - 110px);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+.slider .carousel-caption {
+  top: 50%;
+  bottom: auto;
+  text-align: center;
+  width: 70%;
+  color: #52cdcb;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .slider .carousel-caption {
+    width: 40%;
+    text-align: left;
+  }
+}/*# sourceMappingURL=slider.css.map */

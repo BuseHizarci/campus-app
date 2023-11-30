@@ -1,0 +1,34 @@
+.event-card {
+  height: 100% !important;
+}
+.event-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.event-card .card-body .card-subtitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #6cc947;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.event-card .card-body .image {
+  overflow: hidden;
+}
+.event-card .card-body .image img {
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -ms-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+.event-card .card-body .image img:hover {
+  transform: scale(1.5) rotate(5deg);
+  -webkit-transform: scale(1.5) rotate(5deg);
+  -moz-transform: scale(1.5) rotate(5deg);
+  -ms-transform: scale(1.5) rotate(5deg);
+  -o-transform: scale(1.5) rotate(5deg);
+}/*# sourceMappingURL=event-card.css.map */

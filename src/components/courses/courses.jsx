@@ -8,7 +8,7 @@ const Courses = () => {
     <Container>
       <Row className="g-5" xs={1} sm={2} md={3} lg={4}>
         {courses.map((item) => (
-          <Col key={item.id}>
+          <Col>
             <CourseCard {...item} />
           </Col>
         ))}

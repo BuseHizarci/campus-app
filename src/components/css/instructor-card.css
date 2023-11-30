@@ -1,0 +1,49 @@
+.instructor-card {
+  overflow: hidden;
+}
+.instructor-card img {
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -ms-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+.instructor-card img:hover {
+  transform: scale(1.3) rotate(5deg);
+  -webkit-transform: scale(1.3) rotate(5deg);
+  -moz-transform: scale(1.3) rotate(5deg);
+  -ms-transform: scale(1.3) rotate(5deg);
+  -o-transform: scale(1.3) rotate(5deg);
+}
+.instructor-card img:hover + .card-title {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+.instructor-card .card-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(249, 212, 67, 0.5);
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  pointer-events: none;
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -ms-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+.instructor-card h4, .instructor-card h5, .instructor-card h6 {
+  margin: 0;
+}/*# sourceMappingURL=instructor-card.css.map */
