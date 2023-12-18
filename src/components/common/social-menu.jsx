@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { config } from "../../helpers/config";
 import {
   FaFacebook,

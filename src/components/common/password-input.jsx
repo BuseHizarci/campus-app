@@ -30,9 +30,7 @@ const PasswordInput = (props) => {
         {type === "password" ? <AiFillEye /> : <AiFillEyeInvisible />}
       </InputGroup.Text>
 
-      <Form.Control.Feedback type="invalid">
-        {props.error}
-      </Form.Control.Feedback>
+      <Form.Control.Feedback type="invalid">{props.error}</Form.Control.Feedback>
     </InputGroup>
   );
 };

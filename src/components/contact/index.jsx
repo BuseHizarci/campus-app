@@ -3,6 +3,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import Map from "./map";
 import ContactForm from "./contact-form";
 import GetInTouch from "./get-in-touch";
+import "./index.scss";
 
 const Contact = () => {
   return (
@@ -11,12 +12,8 @@ const Contact = () => {
         <Card>
           <Card.Body>
             <Row className="g-5">
-              <Col md={7}>
-                <ContactForm />
-              </Col>
-              <Col md={5}>
-                <GetInTouch />
-              </Col>
+              <Col md={7}><ContactForm/></Col>
+              <Col md={5}><GetInTouch/></Col>
             </Row>
           </Card.Body>
         </Card>

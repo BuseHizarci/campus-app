@@ -1,8 +1,13 @@
-$color1: #1a10aa;
-$color2: #219a98;
-$color3: #124a98;
-$color1-opacity-50: rgba(249, 212, 67, 0.5);
+$color1: #ca6702;
+$color2: #14213d;
+$color3: #0081a7;
+$color1-opacity-50: rgba(73, 134, 185, 0.5);
+$color2-opacity-50: rgba(56, 49, 38, 0.5);
+$color2-opacity-70: rgba(56, 49, 38, 0.7);
 
 $primary: $color1;
 $secondary: $color2;
 $font-family-sans-serif: "Noto Sans", sans-serif;
+
+// SWEET ALERT
+$swal2-confirm-button-background-color: $color1;

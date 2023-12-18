@@ -9,23 +9,24 @@
 
   .card {
     box-shadow: 0 3px 10px -5px v.$color2;
-    border: none;
-    z-index: 1;
+    border:none;
+    z-index:1;
 
     .card-body {
       padding: 50px;
     }
-
-    a {
-      color: v.$color2-opacity-70;
+    
+    a{
+        color: v.$color2-opacity-70;
     }
 
-    .nav-link {
-      margin-bottom: 15px;
+    .nav-link{
+        margin-bottom: 15px;
     }
   }
 
-  iframe {
+
+  iframe{
     @include m.transform(translateY(-50px));
     margin-bottom: -50px;
   }
